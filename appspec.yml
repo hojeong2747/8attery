@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/my-app/ # 파일들을 EC2 인스턴스에서 어디에 배포할지를 나타내는 경로
+    destination: /home/ubuntu/seesaw-app/ # 파일들을 EC2 인스턴스에서 어디에 배포할지를 나타내는 경로
     overwrite: yes
 
 permissions:
